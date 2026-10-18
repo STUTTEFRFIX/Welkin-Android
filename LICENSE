@@ -19,14 +19,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
----------------------------------------------------------------------------
-Third-party notices
-
-This repository packages and builds upon "hexo-theme-welkin"
-(https://github.com/ZenithSeraph/hexo-theme-welkin), Copyright (c) 2026
-ZenithSeraph, also MIT licensed. The unmodified theme source and its
-THIRD_PARTY_NOTICES.md are kept under site/themes/welkin/ and src/.
-
-The theme bundles three.js (MIT) and code adapted from RhineLabUI (MIT);
-those notices are preserved in the theme directory.
