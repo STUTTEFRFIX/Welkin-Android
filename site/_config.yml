@@ -1,0 +1,75 @@
+# Site
+title: Welkin · 玻璃档案
+subtitle: 移动端主题预览
+description: Welkin 是一款参考《明日方舟》档案风格的 Hexo 主题，玻璃档案首页与纸页阅读界面。
+author: Welkin Demo
+language: zh-CN
+timezone: Asia/Shanghai
+
+# URL — the APK serves the site from an in-app HTTP origin.
+url: http://127.0.0.1:8866
+root: /
+permalink: :year/:month/:day/:title/
+
+# Directory
+source_dir: source
+public_dir: public
+archive_dir: archives
+category_dir: categories
+tag_dir: tags
+pagination_dir: page
+
+# Writing
+future: true
+new_post_name: :title.md
+
+# Theme
+theme: welkin
+
+# ASCII slugs for generated taxonomy pages (Android asset packaging is ANSI-only).
+category_map:
+  档案: archive
+  手记: notes
+  研究: research
+tag_map:
+  观测: observation
+  初火: firstfire
+  记录: record
+  城邦: nomadcity
+  校准: calibration
+  晨间: morning
+  源岩: originium
+  研究: research
+  结晶: crystal
+  巡查: patrol
+  走廊: corridor
+  夜: night
+  档案室: archive-room
+  纸页: paper
+  时间: time
+  玻璃: glass
+  指南: guide
+
+# Pagination
+per_page: 6
+
+# Generators
+index_generator:
+  path: ''
+  per_page: 6
+  order_by: -date
+archive_generator:
+  enabled: true
+  per_page: 12
+  yearly: true
+  monthly: true
+category_generator:
+  per_page: 12
+tag_generator:
+  per_page: 12
+
+# Extensions
+highlight:
+  enable: true
+  line_number: false
+  auto_detect: false

@@ -1,0 +1,20 @@
+# Hexo dependencies
+site/node_modules/
+site/db.json
+site/.cache/
+site/.deploy_git/
+
+# Build staging (build.ps1 regenerates these)
+android/app/src/main/assets/
+android/build/
+
+# Signing material — generate your own with build.ps1
+*.keystore
+*.jks
+*.idsig
+
+# Editor / OS noise
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
